@@ -53,3 +53,6 @@ Below is sample output from our version of server (corresponding to the client
 output shown above). Your server should produce similar output (the exact words
 printed in the statements may differ). Note that our server is printing out the client
 socket file descriptor number for debugging.
+
+
+Modify the above server program so that it is able to communicate with multiple clients. You will need to use the fork() function call to perform the following task. (1) The server should be able to connect to more than one client at the same time. (2) The server is never shutdown. It listens and responds to clients all the time. 
